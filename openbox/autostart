@@ -1,0 +1,9 @@
+picom --focus-exclude 'class_g = "Rofi"' &
+bash ~/.config/polybar/launch.sh --forest &
+launcher-ribbon &
+nitrogen --restore &
+mmaker OpenBox -t kitty &
+export GTK_IM_MODULE=ibus &
+export XMODIFIERS=@im=ibus &
+export QT_IM_MODULE=ibus &
+ibus-daemon -d -x &
