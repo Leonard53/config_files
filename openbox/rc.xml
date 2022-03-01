@@ -251,7 +251,7 @@
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
-    <keybind key="A-F4">
+    <keybind key="C-q">
       <action name="Close"/>
     </keybind>
     <keybind key="A-Escape">
@@ -274,7 +274,7 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="A-S-Tab">
+    <keybind key="A-grave">
       <action name="PreviousWindow">
         <finalactions>
           <action name="Focus"/>
@@ -327,7 +327,7 @@
     </keybind>
     <keybind key="W-space">
       <action name="Execute">
-	      <command>powermenu </command>
+	      <command>powermenu</command>
       </action>
     </keybind>
     <keybind key="C-space">
@@ -335,9 +335,19 @@
         <command>launcher_ribbon</command>
       </action>
     </keybind>
-    <keybind key="C-W-L">
+    <keybind key="W-T">
       <action name="Execute">
         <command>kitty</command>
+      </action>
+    </keybind>
+    <keybind key="W-F12">
+      <action name="AddDesktop">
+        <where>last</where>      
+      </action>
+    </keybind>
+    <keybind key="W-S-F12">
+      <action name="RemoveDesktop">
+        <where>last</where>      
       </action>
     </keybind>
   </keyboard>
