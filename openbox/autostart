@@ -1,6 +1,6 @@
-picom --focus-exclude 'class_g = "Rofi"' &
+picom &
 bash ~/.config/polybar/launch.sh --forest &
-launcher-ribbon &
+~/.config/rofi/launchers/colorful/launcher.sh &
 tint2 &
 nitrogen --restore &
 mmaker OpenBox -t kitty &

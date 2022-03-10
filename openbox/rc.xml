@@ -327,12 +327,12 @@
     </keybind>
     <keybind key="W-space">
       <action name="Execute">
-	      <command>powermenu</command>
+        <command>~/.config/rofi/powermenu/powermenu.sh</command>
       </action>
     </keybind>
     <keybind key="C-space">
       <action name="Execute">
-        <command>launcher_ribbon</command>
+        <command>~/.config/rofi/launchers/colorful/launcher.sh</command>
       </action>
     </keybind>
     <keybind key="W-T">
@@ -342,12 +342,12 @@
     </keybind>
     <keybind key="W-F12">
       <action name="AddDesktop">
-        <where>last</where>      
+        <where>last</where>
       </action>
     </keybind>
     <keybind key="W-S-F12">
       <action name="RemoveDesktop">
-        <where>last</where>      
+        <where>last</where>
       </action>
     </keybind>
   </keyboard>
