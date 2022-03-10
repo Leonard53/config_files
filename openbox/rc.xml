@@ -251,7 +251,7 @@
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
-    <keybind key="C-q">
+    <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
     <keybind key="A-Escape">
