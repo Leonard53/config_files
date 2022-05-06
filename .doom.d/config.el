@@ -80,3 +80,7 @@
 (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd"))
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
+(require 'clang-format)
+(global-set-key (kbd "C-c C-f") 'clang-format-region)
+(require 'modern-cpp-font-lock)
+(modern-c++-font-lock-global-mode t)
